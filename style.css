@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#colorChanger {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cards_list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    width: 23%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.card_a {
+    width: 100%;
+    word-break: break-all;
+}
